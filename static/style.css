@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at center, #0f2027, #0a0f1f);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.glow {
+    font-size: 48px;
+    color: #00f2ff;
+    text-shadow: 0 0 10px #00f2ff,
+                 0 0 20px #00f2ff,
+                 0 0 40px #0088ff;
+}
+
+.subtitle {
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.card, .result-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    margin: auto;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.3);
+}
+
+.upload-label span {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #00f2ff;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.analyze-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #0088ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.analyze-btn:hover {
+    background: #00f2ff;
+    color: black;
+}
+
+.score {
+    font-size: 42px;
+    margin: 20px 0;
+    color: #00ffcc;
+}
+
+.risk {
+    margin-bottom: 30px;
+    color: #ff4c4c;
+}
+
+.back-btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #00f2ff;
+    color: black;
+    border-radius: 6px;
+}

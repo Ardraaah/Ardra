@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Result</title>
+<style>
+  /* Set the background color */
+  body {
+    background-color: #f0f8ff;  /* Light blue background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Custom font */
+    text-align: center;
+    margin-top: 50px;
+    color: #333; /* Default text color */
+  }
+
+  h1 {
+    color: #1e3d59; /* Darker header color */
+  }
+
+  h2 {
+    margin: 10px 0;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007acc;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<h1>Analysis Result</h1>
+<h2>Authenticity Score: {{ score }}%</h2>
+<h2>Risk Level: {{ risk }}</h2>
+<a href="/">Analyze Another File</a>
+</body>
+</html>
