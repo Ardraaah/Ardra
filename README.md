@@ -9,20 +9,25 @@
 ### Team Name: [Name]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Ardra O S] - [Vidya Academy Of Science and technology]
+- Member 2: [Ridha Fathima] - [Vidya Academy Of Science and technolog]
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+
+[“By 2026, AI-generated deepfakes will threaten elections, news, and financial systems.
+RealityShield is a Python-based AI authenticity engine that detects media manipulation using computer vision.”]
 
 ### The Problem statement
-[What problem are you solving?]
+[With the rapid advancement of artificial intelligence, deepfake technology has become increasingly accessible and sophisticated. AI-generated deepfakes can now convincingly manipulate images and videos, making it difficult to distinguish between real and fake content.]
 
 ### The Solution
-[How are you solving it?]
+[Analyze facial features and patterns in images
+Detect inconsistencies caused by AI manipulation
+Classify media as Real or Deepfake
+Provide confidence scores for transparency]
 
 ---
 
